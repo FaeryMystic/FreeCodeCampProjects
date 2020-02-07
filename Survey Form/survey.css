@@ -21,7 +21,7 @@ html, body{
   text-align: center;
 }
 #survey-form{
-  background-color: silver;
+  background-color: hsl(263, 3%, 84%, .8);
   padding: 20px;
   border-radius: 20px;
 }
