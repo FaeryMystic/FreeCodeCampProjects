@@ -1,0 +1,38 @@
+html, body{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Open Sans',sans-serif;
+  background-color: silver;
+/*  background-size: cover;
+  background-repeat:no-repeat;
+  background-attachment: fixed; */
+  margin-top: 30px;
+}
+#header{
+  padding-left: 30px;
+  text-align: left;
+  position: fixed;
+  float: left;
+  top: 0;
+  display: inline-block;
+  width: 100%;
+}
+#header-img{
+  margin-top: 30px;
+  float: left;
+  margin-right: 15px;
+}
+#title{
+  float: left;
+  margin-top: 25px;
+  margin-right: 10px;
+}
+#navbar{
+  margin-top: 30px;
+  float: right;
+  margin-right: 30px;
+}
