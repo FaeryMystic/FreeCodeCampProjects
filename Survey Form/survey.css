@@ -1,0 +1,27 @@
+html, body{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Open Sans',sans-serif;
+  background-color: silver;
+  background-image: url("background.png");
+  background-position: right;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  margin-top: 30px;
+}
+#title{
+  text-align: center;
+}
+#description{
+  text-align: center;
+}
+#survey-form{
+  background-color: silver;
+  padding: 20px;
+  border-radius: 20px;
+}

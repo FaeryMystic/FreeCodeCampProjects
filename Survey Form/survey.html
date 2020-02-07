@@ -1,0 +1,62 @@
+<html>
+  <head>
+    <title> Survey Page </title>
+    <link rel="stylesheet" type="text/css" href="survey.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet">
+  </head>
+  <body>
+    <header></header>
+    <main id="main">
+      <h1 id="title"> Charity's Survey Form</h1>
+      <p id="description"> Tell me what you think of my portfolio</p>
+      <form id="survey-form">
+        <label for="name" id="name-label">Name:</label><br>
+        <input type="text" name="First Name" id="name" placeholder="John Doe" required>
+        <br>
+        <label for="email" id="email-label" >Email:</label><br>
+        <input type="email" name="Email Address" id="email" placeholder="email@email.com" required>
+        <br>
+        <label for="Number" id="number-label" >Number:</label><br>
+        <input type="number" name="number" id="number" min="0" max="9999999999" placeholder="xxx-xxx-xxxx">
+        <br><br>
+        <label for="dropmenu" id="dropm">Which option best describes your current role? </label>
+        <br>
+        <select name="Role" id="dropdown">
+          <option selected disabled text>Select Current Role</option>
+          <option value="Student">Student</option>
+          <option value="Hiring Manager">Hiring Manager</option>
+          <option value="Developer">Developer</option>
+          <option value="CEO">CEO</option>
+          <option value="Interested in Interviewing Me">Interested in Interviewing Me</option>
+          <option value="Other">Other</option>
+        </select>
+        <br><br>
+        How interesting did you find my portfolio?<br>
+        <input type="radio" name ="intersting" value="Very">Very<br>
+        <input type="radio" name ="intersting" value="Somewhat">Somewhat<br>
+        <input type="radio" name ="intersting" value="Not at all">Not at all<br>
+        <br>What should I improve on?<br>
+        <input type="checkbox" name="improve1" value="Website">Website<br>
+        <input type="checkbox" name="improve2" value="Projects">More Projects<br>
+        <input type="checkbox" name="improve3" value="Diverse">Different Types of Projects<br>
+        <input type="checkbox" name="improve4" value="Specialized">Specialized Projects to show greater understanding<br>
+        <input type="checkbox" name="improve5" value="Other">Other<br>
+        <br>Additional Comments or suggestions to improve my portfolio.<br>
+        <textarea name="Additional" rows="8" cols="60" placeholder="Enter your Comment here..."></textarea>
+
+        <br>
+        <input type="submit" id="submit">
+      </form>
+
+
+
+
+
+
+    </main>
+    <footer>
+      <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+      <script src="js/script.js" type="text/javascript"></script>
+    </footer>
+  </body>
+</html>
