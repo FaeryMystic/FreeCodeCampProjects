@@ -13,13 +13,14 @@ html, body{
   background-attachment: fixed;
   margin-top: 30px;
 }
+p{
+
+}
 #header{
-  padding-left: 30px;
-  text-align: left;
+  overflow: hidden;
+  background-color: white;
   position: fixed;
-  float: left;
   top: 0;
-  display: inline-block;
   width: 100%;
 }
 #header-img{
@@ -31,9 +32,33 @@ html, body{
   float: left;
   margin-top: 25px;
   margin-right: 10px;
+  font-size: 20px;
 }
-#navbar{
-  margin-top: 30px;
+#nav-bar{
+  margin-top: 15px;
+  font-size: 18px;
   float: right;
-  margin-right: 30px;
+}
+#header a{
+  float: left;
+  display: block;
+  background-color: white;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  cursor: pointer;
+  padding: 10px 12px;
+  transition: 0.3s;
+}
+#header a:hover{
+  background-color: rgba(0,0,0,0.1);
+}
+#header button.active {
+  background-color: #ccc;
+}
+@media (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
 }
