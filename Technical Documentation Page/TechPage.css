@@ -1,0 +1,58 @@
+html, main{
+  display:inline;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  padding: 0px;
+  font-family: 'Open Sans',sans-serif;
+  background-color: silver;
+  margin-left: 200px;
+}
+
+#navbar{
+  overflow: hidden;
+  background-color: white;
+  top: 0;
+  left: 0;
+  padding: 10px;
+  height: 100%;
+  position: fixed;
+}
+.tabs a{
+  display: block;
+  background-color: white;
+  color: black;
+  text-align: left;
+  text-decoration: none;
+  outline: none;
+  cursor: pointer;
+  padding: 10px 12px;
+  transition: 0.3s;
+}
+.tabs a:hover{
+  background-color: rgba(0,0,0,0.1);
+}
+.tabs button.active {
+  background-color: #ccc;
+}
+@media screen and (max-width: 900px) {
+  #navbar{
+    width: 100%;
+        height: auto;
+        position: relative;
+        float: left;
+        padding: 15px;
+  }
+  html, main{
+    margin-left: 0;
+  }
+  }
+  @media screen and (max-width: 400px) {
+      #navbar {
+          text-align: center;
+          float: none;
+      }
+      html, main{
+        margin-left: 0;
+      }
+  }
