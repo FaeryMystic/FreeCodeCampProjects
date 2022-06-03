@@ -67,9 +67,21 @@
 
       <div class ="cntme">
           <section  id="cntct">
-            <h2 class="conactform" id="contact"> Contact Form</h2>
+            <h2 class="contactform" id="contact">Contact Form</h2>
+              <div class="form">
+                <form action="/actionpage.php">
+                  <label for="firstn"> First Name<br></label>
+                  <input type="text" id="firstn" name = "firstname" placeholder="Your first name...">
+                  <label for="lastn"> <br> Last Name<br></label>
+                  <input type="text" id="lastn" name="lastname" placeholder="Your last name...">
+                  <label for="company"> <br> Company Name<br></label>
+                  <input type="text" id="company" name ="companyname" placeholder="Your company name...">
+                  <label for="subject"> <br>Subject<br></label>
+                  <textarea id="subject" name="subject" placeholder="Reason for contacting..." style="height:170px"></textarea>
+                <br>  <input type="submit" value="Submit">
 
 
+              </div>
           </section>
       </div>
 

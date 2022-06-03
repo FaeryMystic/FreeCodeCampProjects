@@ -144,14 +144,34 @@ ol{
 
   width: auto;
 }
+
+/* contact form CSS below   */
+
 .cntme{
-  display: inline-block;
+ display: inline-block;
  color: white;
  height: 250px;
- font-size: 20px;
-
+ font-size: 25px;
+ text-align: left;
+}
 .contactform{
   font-family:monospace;
   font-size: 50px;
   color: white;
+}
+input[type=text], select, textarea{
+  width:100%;
+  border:2px solid purple;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom:20px;
+}
+input[type=submit]{
+  padding: 12px;
+  font-family: inherit;
+  font-size: 15px;
+  background-color: purple;
+  border-width: 0px;
+  color: white;
+  border-radius: 3px;
 }
